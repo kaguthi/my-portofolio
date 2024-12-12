@@ -4,8 +4,62 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .container{
+    background-color: #eb4034;
+}
+.navbar{
     display: flex;
     align-items: center;
-    justify-content: center;
-    min-height: 100vh;
+    justify-content: space-between;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.header {
+    margin-left: 20px;
+}
+.header h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+nav ul{
+    display: flex;
+    gap: 10px;
+    margin-right: 20px;
+}
+ul li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eb4034;
+    /* height: 89vh; */
+}
+.hero-banner img{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    margin: 20px;
+    border-radius: 20px;
+}
+.hero-message h3{
+    margin-left: 20px;
+    font-size: 40px;
+    color: #fff;
+    text-decoration: underline;
+}
+.hero p {
+    color: #fff;
+    padding: 25px;
+    flex-wrap: wrap;
+    font-size: 25px;
+}
+.projects{
+    background-color: #eb6e34;
 }
